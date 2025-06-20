@@ -12,6 +12,8 @@ Brewfile
 README\.md
 LICENSE
 
+# Ignore macOS-specific metadata files.
+\.DS_Store
 
 # --- Common default patterns from Stow's source code ---
 
