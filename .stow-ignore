@@ -1,0 +1,39 @@
+# This file tells Stow which files and directories to ignore when running commands.
+
+# --- Custom rules for this repository ---
+
+# Ignore the main setup script.
+setup\.sh
+
+# Ignore the Homebrew bundle file.
+Brewfile
+
+# Ignore documentation files.
+README\.md
+LICENSE
+
+
+# --- Common default patterns from Stow's source code ---
+
+# Version Control Systems
+\.git
+\.gitignore
+\.gitmodules
+\.cvsignore
+\.hg
+\.svn
+_darcs
+
+# Legacy VCS files
+RCS
+.+,v
+\.\#.+
+
+# Editor backup and autosave files
+.+~
+\#.*\#
+
+# The ^/ matches them only at the root of the package.
+^/README.*
+^/LICENSE.*
+^/COPYING
