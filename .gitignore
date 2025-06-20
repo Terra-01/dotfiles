@@ -1,0 +1,73 @@
+# ===================================================================
+# General & Secrets
+# ===================================================================
+# Ignore environment variables and secrets files
+*.env
+*.env.local
+*.env.*.local
+
+# Ignore log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ===================================================================
+# macOS Specific
+# ===================================================================
+# This is the most important one for your current issue
+.DS_Store
+
+# General Mac system files
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Thumbnails
+ehthumbs.db
+Thumbs.db
+
+
+# ===================================================================
+# IDEs and Editors
+# ===================================================================
+# VS Code / Cursor
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# JetBrains IDEs (IntelliJ, etc.)
+.idea/
+
+
+# ===================================================================
+# Python Environment
+# ===================================================================
+# pyenv
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# ===================================================================
+# Node.js Environment (for nvm)
+# ===================================================================
+# This is one of the most important rules for any Node project.
+# The node_modules folder can contain thousands of files.
+node_modules/
+dist/
+build/
